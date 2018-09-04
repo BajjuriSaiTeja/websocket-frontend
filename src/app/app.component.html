@@ -1,0 +1,17 @@
+<div style="text-align:center">
+    <h1>
+        Welcome to {{title}}!
+    </h1>
+    <div class="chat-container">
+        <div class="chat">
+            <div class="message"></div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <input id="input" type="text" #input>
+    <button  class="send" (click)="sendMessage(input.value)">Click
+    </button>
+
+</div>
